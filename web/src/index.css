@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-purple-dark: #B33791;
+  --color-purple-medium: #C562AF;
+  --color-purple-light: #DB8DD0;
+  --color-pink-pale: #FEC5F6;
+  --color-black: #000000;
+
+  /* Fonts */
+  --font-sans: "Montserrat", "Helvetica Neue", Arial, ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Base globals */
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply bg-black text-white antialiased;
+  font-family: var(--font-sans);
+}
+
+/* Scrollbar (WebKit) */
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+*::-webkit-scrollbar-thumb {
+  background: color-mix(in oklab, var(--color-purple-medium) 70%, black);
+  border-radius: 9999px;
+}
