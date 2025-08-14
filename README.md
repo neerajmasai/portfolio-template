@@ -1,79 +1,12 @@
-# portfolio-template
-A modern portfolio template
+# React + Vite
 
-Shalvi Singh
-📧 shalvi.singh0718@gmail.com | 📱 9341573671 | 📍 Jamshedpur
-🔗 linkedin.com/in/shalvi-singh-b17968357
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Professional Summary
+Currently, two official plugins are available:
 
-Results-driven professional with 5+ years of experience spanning SAP APO Consulting, Telecom Operations, and Insurance Processes. Expertise in supply chain planning, process optimization, and client coordination. Adept at leveraging SAP APO (DP, SNP, PP/DS, GATP), ECC integration, and workflow management tools to streamline operations, enhance accuracy, and meet strict SLA targets. Skilled in cross-functional collaboration, user training, and handling sensitive financial and customer data with utmost compliance and confidentiality.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Core Competencies
+## Expanding the ESLint configuration
 
-SAP APO Modules: DP, SNP, PP/DS, GATP
-
-Supply Chain Planning & Optimization
-
-Production Support & Issue Resolution
-
-Data Accuracy & Process Compliance
-
-SLA & Workflow Management
-
-Client & Stakeholder Communication
-
-MS Excel & Reporting
-
-Telecom & Insurance Domain Knowledge
-
-Professional Experience
-
-Infosys Pvt. Ltd., Pune
-Senior Process Specialist — Jan 2024 – Present
-Telecom Process – Verizon
-
-Managed customer data validation, order processing, and service provisioning.
-
-Coordinated with internal systems to handle disconnections, reconnections, and plan updates.
-
-Addressed billing, account, and service-related queries ensuring SLA adherence.
-
-Utilized workflow and ticketing systems for tracking and escalation.
-
-Insurance & Annuities Process – McCamish
-
-Processed policy updates, withdrawals, and beneficiary changes with complete compliance.
-
-Conducted policy data validation and quality checks, liaising with underwriting teams.
-
-Maintained high accuracy and confidentiality of sensitive customer and financial data.
-
-Cureus Technologies Ltd., Kolkata
-SAP APO Consultant — Oct 2020 – Jul 2023
-
-Delivered end-to-end SAP APO solutions for DP, SNP, and PP/DS.
-
-Configured planning books, macros, and demand forecasting models.
-
-Implemented SNP heuristics & CTM for supply network planning.
-
-Integrated APO with ECC using CIF for master and transactional data.
-
-Provided production support, resolved planning issues, and trained users.
-
-Education
-
-Masters in Commerce (Economics) — Co‑operative College
-
-Technical Skills
-
-SAP APO | SAP ECC | CIF | SAP BW | SCM 7.0 | MS Excel | PowerPoint | Workflow Tools | Ticketing Systems
-
-Languages
-
-Hindi (Fluent) | English (Fluent) | Marathi (Beginner)
-
-Hobbies
-
-Traveling | Cooking | Cycling
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
