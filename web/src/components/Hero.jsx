@@ -37,7 +37,11 @@ function Hero({ isDark }) {
       <div className="absolute bottom-0 left-0 right-0 z-10 bg-gradient-to-t from-black/90 via-black/60 to-transparent pt-32">
         <div className="mx-auto mb-24 max-w-6xl px-4 sm:px-6 lg:px-8">
           <h1 className="max-w-xl text-4xl font-extrabold leading-tight tracking-wide text-pink-pale sm:text-5xl md:text-6xl">
-            Shalvi Singh
+            <span className="group inline-block">
+              <span className="inline group-hover:hidden">Shalvi</span>
+              <span className="hidden group-hover:inline">शाल्वी</span>
+            </span>
+            <span> Singh</span>
           </h1>
           <p className="mt-3 max-w-2xl text-sm text-purple-light/90 md:text-base">
             SAP APO Consultant | Telecom & Insurance Operations | Process Optimization
